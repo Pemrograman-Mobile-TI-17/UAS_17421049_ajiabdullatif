@@ -1,0 +1,22 @@
+{
+  "name": "toko_pancing",
+  "version": "1.0.0",
+  "description": "ini api saya",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "ajiabdullatif",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.11",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3"
+  }
+}
